@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Memory Game</string>
+
+    <!-- Main screen -->
+    <string name="memory_game">Memory Game</string>
+    <string name="memory_game_title">MEMORY GAME</string>
+
+    <string name="board_size">Kích thước bàn</string>
+
+    <string name="score">Điểm</string>
+    <string name="tries">Lượt thử</string>
+
+    <string name="score_default">0</string>
+
+    <string name="new_game">CHƠI MỚI</string>
+
+    <!-- Card -->
+    <string name="card_hidden">?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_subtitle">Tùy chỉnh trò chơi</string>
+
+    <string name="background_music">Nhạc nền</string>
+    <string name="background_music_description">
+        Bật hoặc tắt nhạc nền khi chơi
+    </string>
+
+    <string name="back">Quay lại</string>
+
+    <!-- Win dialog -->
+    <string name="win_title">🎉 Bạn đã thắng!</string>
+
+    <string name="win_message">
+        Điểm: %1$d\nSố lượt thử: %2$d
+    </string>
+
+    <string name="play_again">CHƠI LẠI</string>
+
+    <!-- Board sizes -->
+    <string-array name="board_sizes">
+        <item>4 × 4</item>
+        <item>4 × 5</item>
+        <item>4 × 6</item>
+        <item>5 × 6</item>
+        <item>6 × 6</item>
+    </string-array>
+
+</resources>

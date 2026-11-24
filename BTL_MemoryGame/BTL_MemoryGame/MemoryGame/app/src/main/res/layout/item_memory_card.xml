@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardContainer"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/card_back">
+
+    <!-- Dấu ? khi card đang úp -->
+    <TextView
+        android:id="@+id/tvCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/card_hidden"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Hình khi card được lật -->
+    <ImageView
+        android:id="@+id/imgCard"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+
+</FrameLayout>
